@@ -1,0 +1,226 @@
+body{
+    /* margin:margen del elemento */
+    margin: 0;
+    /* padding:margen hacia adentro */
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+
+}
+
+header nav{
+    /* Para justificar a la derecha */
+    /* Nos habilita usar:flex-end,flex-start */
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    /* eliminar los puntos de la lista */
+    list-style: none;
+    /* mover la lista  */
+    display: flex;
+    /* para que este centrado */
+    justify-content: center;
+    /* centrado verticalmente */
+    align-items: center;
+}
+
+a{
+    /* Eliminar línea debajo del texto */
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color: black;
+    margin-right: 20px;
+}
+/* icono del menu */
+nav .nav-right-section .menu{
+    /* Agregar icono desde css */
+
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    /* Que la imagen este contneida en el elemento mas grande */
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+/* Imagen del usuario */
+nav .nav-right-section img{
+    /* Redondear bordes */
+    border-radius: 100%;
+
+    width: 30px;
+    height: 30px;
+
+    margin-left: 20px;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    /* Centrar aboslutamente gracias a los margenes automaticos */
+    margin: 0 auto;
+}
+
+main .main-logo img{
+    height: 90px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-input-container{
+    /* ancho || borde-estilo|| border-color */
+    border:1px solid #dfe1e5 ;
+    border-radius:25px ;
+    width:525px;
+}
+
+main .main-input input{
+    height:35px;
+    /* quitar el borde */
+    border: none;
+    /* quitar el borde cuando esta activo el input */
+    outline: none;
+    width: 430px;
+
+}
+
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-position: center;
+    background-size: contain;
+    padding-left: 5%;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 10px;
+    padding-left: 6%;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    padding-left: 10px;
+    background-repeat: no-repeat ;
+    width: 20px;
+    height: 20px;
+
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    padding-right: 4%;
+    background-repeat: no-repeat;
+    /*
+    width: 10px;
+    height: 15px;
+    */
+    margin-left: 16px;
+}
+button{
+    border: 1px solid #f3f2f2;
+    border-radius: 5px;
+    color: #000000;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+    /*    
+    
+    
+    
+    
+    
+    
+    
+    */
+
+footer{
+    width: 100%;
+    position: fixed;
+    background-color:#bdb5b5;
+    color: #94969d;
+    margin-top: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer .below-section{
+    background-color: #f3f2f2;
+}
+
+footer .below-section .Mexico{
+    height: 30px;
+    margin: auto;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #848789;
+    font-size: 16px;
+    background-color: #f3f2f2;
+}
+
+footer .inside{
+    background-color:#f3f2f2;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+footer .inside .left-section{
+    background-color: #f3f2f2;
+    width: 620px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-evenly
+}
+
+footer .inside .rigth-section{
+    background-color:#f3f2f2;
+    width: 620;
+    height: auto;
+    list-style: none;
+    color: #70757a;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    /* Eliminar línea debajo del texto */
+    text-decoration: none;
+}
