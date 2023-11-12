@@ -1,0 +1,156 @@
+<!-- htmls:5 para crear esqueleto -->
+<!-- ctrl k c para comentario -->
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Metadata para el navegador -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nombre en la pestaña del navegador -->
+    <title>Avatar</title>
+    <!-- CONEXION CON CSS rel- relación de este documento-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<!-- BODY es lo que ve el usuario -->
+<body>
+    <header>
+        <nav>
+            <Ul class="nav-right-section">
+                <li>
+                    <a href="#Menu">Menu</a>
+                </li>
+                <li class="menu">
+                    <a href=""></a>
+                </li>
+            </Ul>
+        </nav>
+    </header>
+
+    <!-- MAIN caja que agrupa elementos -->
+    <main>
+        <h1>El mundo de Avatar</h1>
+        <!-- A TRAVÉS DE SU COMPUTADORA -->
+        <img src="./imag/inicio.jpeg" alt="idea1">
+        <!-- LISTAS -->
+        <h3 id="Menu">Menu</h3>
+        <ul>
+            <li>
+                <a href="#avatar">Avatar</a>
+            </li>
+            
+            <li>
+                <a href="#pandora">
+                Pandora   
+                </a>
+            </li>
+            <li>
+                <a href="#navi">
+                    Na'vi
+                </a>
+            </li>
+        </ul>
+        <!-- OL Lista ordenada -->
+        <h3 id="avatar" > Avatar</h3>
+        <a href="">
+            <img src="./imag/avatar.jpeg" class="avatar">
+        </a>
+        
+        <p>
+            Los Na'vi son en general humanoides en su anatomía, aunque también poseen características felinas como narices planas y bifurcadas, ojos grandes y redondos, orejas puntiagudas que pueden moverse de forma independiente y una cola larga y prensil que se usa para agarrar y mantener el equilibrio. El cuello es largo y el cuerpo delgado, con una cintura estrecha y alargada y hombros anchos que crean una parte superior de la espalda en forma de V. A pesar de sus delgadas proporciones, su musculatura está claramente definida y tienen aproximadamente cuatro veces la fuerza de un ser humano en óptimas condiciones físicas.
+        </p>
+
+        <h3 id="pandora">Pandora</h3>
+        
+        <p>
+            Pandora es la quinta luna del gigante planeta gaseoso Polifemo, que orbita a su estrella Alfa Centauri A en el Sistema Alfa Centauri, el sistema estelar más cercano a nuestro propio Sol.
+
+            
+        </p>
+        <p>Haz click para un recorrido mágico por pandora </p>
+        <a href="https://youtu.be/GBGDmin_38E">
+            <img src="./imag/pando.jpg" class="pandor">
+        </a>
+        
+        
+        <h3 id="navi">Na'vi</h3>
+        <p>
+            Los Na'vi (en Español: La Gente) son una raza de humanoides extraterrestres inteligentes que habitan en la luna llamada Pandora. Se sabe que los humanos se refieren a ellos como "los azules", "salvajes", "los locales", "hostiles" o "los nativos".
+        </p>
+
+        <p>
+            Los Na'vi y los Tulkun son las únicas especies extraterrestres conocidas que tienen un nivel de inteligencia comparada con los humanos. Aunque los Na'vi son cazadores y recolectores con una tecnología equivalente a la época paleolítica de la Tierra, son muy inteligentes y han desarrollado una cultura sofisticada basada en una profunda conexión espiritual con otras formas de vida en su luna, entre ellos y con una "diosa" llamada Eywa.
+        </p>
+        <ol>
+            <li>Los Na'vi de la Jungla</li>
+                <p>
+                    El Clan Omaticaya (nombre Na'vi: Omatikaya que significa "Clan de la Flauta Azul") es una tribu Na'vi del bosque. Anteriormente vivían en un Árbol Madre en una de las enormes selvas de Pandora. 
+                </p>
+                <p>
+                    Los Omaticaya están liderados por Jake Sully y Mo'at (anteriormente Eytukan y temporalmente Tsu'tey) compartiendo una profunda conexión con el bosque. Los dos últimos Toruk Makto han sido miembros de este clan, sobre todo Jake Sully, el sexto Toruk Makto.
+                </p>
+                <img src="./imag/family.jpeg" alt="familia">
+            <li>Los Na'vi del Oceano</li>
+            <p>
+                El Clan Metkayina y el Clan Ta'unui, como otros clanes al rededor de las arrecifes de Pandora, son un grupo oceánico de Na'vi que ha evolucionado a un estilo de vida acuático al desarrollar brazos y piernas en forma de aletas, colas anchas en forma de paleta, piel más verdosa, con franjas más acuosas, ojos azules y cabello rizado.
+            </p>
+            <img src="./imag/aguaavatar.jpg" alt="aguaavatar">
+        </ol>
+        <!-- div una caja para agrupar elementos -->
+        
+        <p>Haz click en esta imagen para ver la pelicula</p>
+
+        <a href="https://www.disneyplus.com/es-419/movies/avatar/2YOnkRN4LwZZ">
+            <img class="bongo-cat" src="./imag/pandora.jpeg" alt="">
+        </a>
+        <!-- FORMULARIOS -->
+
+        <form>
+            <!-- Formulario INPUT -->
+            <p>¿Eres un avatar?</p>
+            <label for="si">
+                <input type="text">
+                <button >enviar</button>
+            </label>
+            <!-- Formulario INPUT -->
+            <p> ¿De qué color son los avatar</p>
+            <label for="azules">
+                <input type="radio" name="Rojos"> Azules
+            </label>
+            <label for="Amarillos">
+                <input type="radio" name="Rojos">Son amarillos
+            </label>
+            <label for="morados">
+                <input type="radio" name="Rojos">Son de color morado
+            </label>
+
+             <!-- Formulario INPUT  CHEKBOX-->
+             <!-- Podemos seleccionar todas las opciones -->
+             <p> ¿Quien es tu personaje favorito?</p>
+             <!-- El form va asosiado a la respuesta que vamos a poner -->
+             <label for="Jake Sully">   
+                 <input type="checkbox" name="Personaje"> Jake Sully
+             </label>
+             <label for="Neytiri">
+                 <input type="checkbox" name="Personajes">Neytiri
+             </label>
+             <label for="Lo’ak">
+                 <input type="checkbox" name="Personajes">Lo’ak
+             </label>
+
+
+
+
+
+
+        </form>
+
+
+    </main>
+
+</body>
+</html>
+

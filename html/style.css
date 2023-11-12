@@ -1,0 +1,114 @@
+/* Selector {
+        propiedad:valor;
+        propiedad:valor; 
+    }  
+*/
+body {
+    background-color: rgb(144, 179, 203);
+    /* color de texto */
+    color: black;
+    /* cambiar la fuente del texto */
+    font-family: 'Comfortaa', sans-serif;
+
+}
+
+header{
+    height: 60px;
+    width: 100%;
+
+}
+
+header nav{
+    /* Para justificar a la derecha */
+    /* Nos habilita usar:flex-end,flex-start */
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    /* eliminar los puntos de la lista */
+    list-style: none;
+    /* mover la lista  */
+    display: flex;
+    /* para que este centrado */
+    justify-content: center;
+    /* centrado verticalmente */
+    align-items: center;
+}
+
+a{
+    /* Eliminar línea debajo del texto */
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color: black;
+    margin-right: 20px;
+}
+/* icono del menu */
+nav .nav-right-section .menu{
+    /* Agregar icono desde css */
+
+    background-image: url(./imag/avataricon.png);
+    /* Que la imagen este contneida en el elemento mas grande */
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+
+
+main{
+    margin-top: 100px;
+    text-align: justify;
+}
+h1 {
+    color: rgb(13, 13, 83);
+    text-align: center;
+}
+
+h3{
+    color: navy;
+    text-align: justify;
+}
+
+a {
+    color: rgb(85, 135, 135);
+}
+.pandor{
+    width: 190px;
+    height: 220px;
+    align-items: center;
+}
+img{
+    /* width: ancho del objeto // height:alto del objeto */
+    width:60%;
+    justify-content: center;
+    align-items: center;
+
+}
+.familia{
+    width: 70px;
+    height: 20px;
+    align-items: center;
+}
+
+.avatar{
+    width: 10%;
+
+}
+.bongo-cat{
+    width: 200px;
+    border-radius: 10%;
+    /* sombras */
+    box-shadow: 1px 0px 20px rgb(224, 244, 255);
+}
+
+.aguaavatar{
+    width: 70px;
+    height: 20px;
+    align-items: center;
+}
